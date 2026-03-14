@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefWidth="600.0" prefHeight="400.0"
+            xmlns="http://javafx.com/javafx/25"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.csc325_firebase_webview_auth.view.StartScreen">
+   <children>
+      <ImageView fitHeight="412.0" fitWidth="600.0">
+         <image>
+            <Image url="@farmingdale.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="login" onAction="#loginButton" layoutX="231.0" layoutY="153.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="138.0" text="Sign in" />
+      <Button fx:id="register" onAction="#registerButton" layoutX="231.0" layoutY="222.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="138.0" text="Register" />
+   </children>
+</AnchorPane>
